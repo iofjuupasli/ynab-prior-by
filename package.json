@@ -1,0 +1,33 @@
+{
+  "name": "ynab-prior-by",
+  "version": "1.0.0",
+  "description": "Convert prior.by csv to ynab csv format",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./convert.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iofjuupasli/ynab-prior-by.git"
+  },
+  "keywords": [
+    "ynab",
+    "bank",
+    "account",
+    "convert",
+    "csv",
+    "prior",
+    "budget"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iofjuupasli/ynab-prior-by/issues"
+  },
+  "homepage": "https://github.com/iofjuupasli/ynab-prior-by#readme",
+  "dependencies": {
+    "iconv-lite": "^0.4.23",
+    "lodash": "^4.17.10"
+  }
+}
